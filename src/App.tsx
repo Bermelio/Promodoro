@@ -1,14 +1,14 @@
 import './App.css';
-import Main from './components/Main/Main.tsx';
 import Navbar from './components/Navbar/Navbar.tsx';
 import Footer from './components/Footer/Footer.tsx'
+import Menu from './components/Menu/Menu.tsx';
 
 function App() {
 
   return (
     <>
       <Navbar />
-      <Main />
+      <Menu />
       <Footer />
     </>
   )
