@@ -1,12 +1,12 @@
-
+import { motion } from "framer-motion";
 
 function Clock(){
 
     return(
         <>
-            <span className="h-2/3 bg-[#536878]">
-            
-            </span>
+            <div className="h-2/3 bg-[#536878]">
+                <motion.div/>
+            </div>
         </>
     )
 }
