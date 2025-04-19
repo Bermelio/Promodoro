@@ -1,10 +1,10 @@
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 
 function Clock(){
 
     return(
         <>
-            <div className="h-2/3 bg-[#536878]">
+            <div className='flex justify-center items-center'>   
                 <motion.div/>
             </div>
         </>
@@ -12,3 +12,4 @@ function Clock(){
 }
 
 export default Clock;
+
